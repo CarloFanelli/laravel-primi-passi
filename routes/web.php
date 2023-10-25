@@ -22,3 +22,11 @@ Route::get('/', function () {
         ['surname' => $surname]
     );
 });
+
+Route::get('/contact', function () {
+    $email = 'Carlo@email.it';
+    return view(
+        'contact',
+        ['email' => $email]
+    );
+});
