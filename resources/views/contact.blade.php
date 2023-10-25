@@ -5,14 +5,21 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>HomePage</title>
+    <title>Contacts</title>
 
     <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.bunny.net">
-    <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
 
+    <link rel="stylesheet" href="{{url('/css/app.css')}}">
     <!-- Styles -->
 </head>
+<header>
+    <div class="navbar">
+        <ul>
+            <li><a href="{{url('/')}}">Home</a></li>
+            <li><a href="{{url('contact')}}">Contacts</a></li>
+        </ul>
+    </div>
+</header>
 
 <body class="antialiased">
     <H1>hello word</H1>
