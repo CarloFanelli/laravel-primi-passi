@@ -16,6 +16,7 @@
 
 <body class="antialiased">
     <H1>hello word</H1>
+    <h2>my name is {{$name}} {{$surname}}</h2>
 </body>
 
 </html>
